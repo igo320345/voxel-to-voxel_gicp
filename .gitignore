@@ -1,0 +1,9 @@
+.vscode/*
+build/*
+dist/*
+data/*
+
+*.so
+*.py[cod]
+*.egg-info
+README.html
