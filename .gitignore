@@ -1,9 +1,41 @@
-.vscode/*
-build/*
-dist/*
-data/*
-
+# Build and packaging output
+/build/
+/build-*/
+/cmake-build-*/
+/dist/
+*.egg-info/
+*.egg
 *.so
+*.dylib
+*.dll
+*.o
+*.obj
+*.a
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
+
+# Python environments and caches
+__pycache__/
 *.py[cod]
-*.egg-info
+/.venv/
+/venv/
+/.pixi/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local datasets and evaluation output (keep docs/figures tracked)
+/data/
+/datasets/
+/kitti_odometry/
+/results/
 README.html
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+._*
+*.swp
+*.swo
